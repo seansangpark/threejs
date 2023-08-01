@@ -27,6 +27,7 @@ const Home = () => {
               className='w-8 h-8 object-contain'
             />
           </motion.header>
+
           <motion.div
             className='home-content'
             {...headContainerAnimation}
@@ -45,6 +46,7 @@ const Home = () => {
                 customization tool. <strong>Unleash your imagination</strong>{' '}
                 and define your own style.
               </p>
+
               <CustomButton
                 type='filled'
                 title='Customize It'
