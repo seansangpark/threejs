@@ -53,7 +53,7 @@ const Customizer = () => {
 
     state[decalType.stateProperty] = result;
 
-    if (!activeFilterTab[decalType.FilterTab]) {
+    if (!activeFilterTab[decalType.filterTab]) {
       handleActiveFilterTab(decalType.filterTab);
     }
   };
@@ -69,6 +69,7 @@ const Customizer = () => {
       default:
         state.isLogoTexture = true;
         state.isFullTexture = false;
+        break;
     }
   };
 
