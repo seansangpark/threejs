@@ -63,7 +63,7 @@ const Customizer = () => {
 
       const response = await fetch('http://localhost:8080/api/v1/dalle', {
         method: 'POST',
-        header: {
+        headers: {
           'Content-type': 'application/json',
         },
         body: JSON.stringify({
