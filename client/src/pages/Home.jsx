@@ -34,7 +34,7 @@ const Home = () => {
           >
             <motion.div {...headTextAnimation}>
               <h1 className='head-text'>
-                LET'S <br className='xl:block hidden' /> DO IT.
+                DESIGN YOUR <br className='xl:block hidden' /> SHIRT USING AI
               </h1>
             </motion.div>
             <motion.div
