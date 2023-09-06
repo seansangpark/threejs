@@ -1,6 +1,6 @@
 # AI-Powered 3D T-Shirt Design Website
 
-![Project Logo](threejs/client/src/assets/project.png)
+![Project Logo](./client/src/assets/project.png)
 
 Welcome to the AI-Powered 3D T-Shirt Design Website repository! This project leverages the power of artificial intelligence and creative technologies to allow users to design custom t-shirts. It uses Three.js for 3D rendering, React with Vite.js for the frontend, Midjourney for user interactions, and integrates DALL·E AI for generating unique t-shirt designs.
 
